@@ -7,4 +7,4 @@
 ## 使用方法
 
 在编辑器中选中需要转化的字符串，`command + shift + p` 或者 `ctrl + shift + p` 选择`varTypes: xxx`命令进行格式化
-![](images/demo.gif)
+![](https://raw.githubusercontent.com/zimplexing/varTypes/master/images/demo.gif)

@@ -4,6 +4,7 @@
     "description": "Format strings to camelize, dasherize, etc.",
     "version": "0.0.1",
     "publisher": "zimplexing",
+    "repository": "https://github.com/zimplexing/varTypes",
     "engines": {
         "vscode": "^1.15.0"
     },

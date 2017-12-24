@@ -1,0 +1,46 @@
+{
+    "name": "vartypes",
+    "displayName": "varTypes",
+    "description": "Format strings to camelize, dasherize, etc.",
+    "version": "0.0.1",
+    "publisher": "zimplexing",
+    "engines": {
+        "vscode": "^1.15.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onCommand:varTypes.to var-types or to varTypes",
+        "onCommand:varTypes.to varTypes or to VAR_TYPES"
+    ],
+    "main": "./extension",
+    "contributes": {
+        "commands": [
+            {
+                "title": "to var-types or to varTypes",
+                "category": "varTypes",
+                "command": "varTypes.to var-types or to varTypes"
+            },
+            {
+                "title": "to varTypes or to VAR_TYPES",
+                "category": "varTypes",
+                "command": "varTypes.to varTypes or to VAR_TYPES"
+            }
+        ]
+    },
+    "scripts": {
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "node ./node_modules/vscode/bin/test"
+    },
+    "devDependencies": {
+        "typescript": "^2.6.1",
+        "vscode": "^1.1.6",
+        "eslint": "^4.6.1",
+        "@types/node": "^7.0.43",
+        "@types/mocha": "^2.2.42"
+    },
+    "dependencies": {
+        "underscore.string": "^3.3.4"
+    }
+}
